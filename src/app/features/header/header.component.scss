@@ -1,0 +1,23 @@
+@import "../../../assets/mixins.scss";
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    column-gap: 2.5rem;
+    padding: 3rem 10rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: -2px;
+    margin-right: -50px;
+    @include roundedBorders;
+
+    .item {
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+}

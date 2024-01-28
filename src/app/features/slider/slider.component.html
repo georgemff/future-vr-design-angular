@@ -1,0 +1,15 @@
+<div class="slider">
+    <div class="slider-items">
+        <ng-container *ngFor="let id of elementIds">
+            <div class="slider-item" [ngClass]="{'middle': id==2}">
+                <img 
+                    src="../../../assets/images/slider/vr-headset-{{id}}.webp" 
+                    alt="{{id}}">
+            </div>
+        </ng-container>
+    </div>
+    <div class="navigation">
+        <span><</span>
+        <span>></span>
+    </div>
+</div>

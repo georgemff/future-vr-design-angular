@@ -1,0 +1,11 @@
+@import "../../../assets/mixins.scss";
+
+div {
+    padding: 3rem 5rem 3rem 23rem;
+    @include roundedBorders;
+    color: #FFFFFF;
+
+    p {
+        text-align: right;
+    }
+}

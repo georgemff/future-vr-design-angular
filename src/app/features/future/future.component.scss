@@ -4,11 +4,16 @@ section {
     height: 586px;
     overflow: hidden;
 
+    background-image: url(../../../assets/images/vr.webp);
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position-y: bottom;
+
     img {
         position: absolute;
         top: 6rem;
         left: 0.3rem;
-        width: 50%;
+        height: 85%;
     }
 
     app-vertical-vr-banner {
